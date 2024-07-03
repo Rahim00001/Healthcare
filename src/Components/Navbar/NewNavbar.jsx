@@ -2,7 +2,7 @@ import { Navbar } from "flowbite-react";
 import { BsArrowUpRight } from "react-icons/bs";
 const NewNavbar = () => {
   return (
-    <div className="my-2 max-w-[1260px] mx-auto">
+    <div className="my-2 max-w-[1160px] mx-auto">
       <Navbar fluid rounded>
         <Navbar.Brand href="https://flowbite-react.com">
           <img src="../../../public/Images/logo dark.png" className="mr-3 h-6 sm:h-9" alt="Flowbite React Logo" />

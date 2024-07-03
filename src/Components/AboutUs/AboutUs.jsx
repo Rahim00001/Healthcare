@@ -1,7 +1,7 @@
 import { BsArrowUpRight } from "react-icons/bs";
 const AboutUs = () => {
     return (
-        <section className="max-w-[1260px] mx-auto mb-16">
+        <section className="max-w-[1160px] mx-auto mb-40">
             <div className="flex justify-between items-center">
                 {/* about us texts */}
                 <div className="w-[50%] max-w-[500px]">
