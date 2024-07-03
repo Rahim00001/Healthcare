@@ -1,9 +1,9 @@
 
 const Testimonial = () => {
     return (
-        <div className="max-w-[1160px] mx-auto">
+        <div className="max-w-[1160px] mx-auto mb-20">
             {/* section title */}
-            <div className="border-2 border-[#020043] w-[120px] rounded-3xl text-center py-2 mb-4">
+            <div className="border-2 border-[#020043] w-[140px] rounded-3xl text-center py-2 mb-4">
                 <p className="text-lg font-medium text-[#020043]">Testimonial</p>
             </div>
             {/* section heading */}
