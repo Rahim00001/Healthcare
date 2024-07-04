@@ -7,6 +7,7 @@ import NewNavbar from './Components/Navbar/NewNavbar';
 import Services from './Components/Services/Services';
 import Testimonial from './Components/Testimonial/Testimonial';
 import NewFooter from './Components/Footer/NewFooter';
+import Statistics from './Components/Statistics/Statistics';
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
     <div className='bg-[#FBFBFB]'>
       <NewNavbar></NewNavbar>
       <Hero></Hero>
+      <Statistics></Statistics>
       <AboutUs></AboutUs>
       <Services></Services>
       <Testimonial></Testimonial>
