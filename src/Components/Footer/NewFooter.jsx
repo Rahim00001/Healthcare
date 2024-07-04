@@ -3,6 +3,7 @@ import fb from "../../../public/Images/fb.png"
 import insta from "../../../public/Images/insta.png"
 import link from "../../../public/Images/link.png"
 import yt from "../../../public/Images/yt.png"
+import logo from "../../../public/Images/logo light.png"
 const NewFooter = () => {
   return (
     <Footer container className="bg-[#020043] rounded-none">
@@ -11,7 +12,7 @@ const NewFooter = () => {
           <div>
             <Footer.Brand
               href="#"
-              src="../../../public/Images/logo light.png"
+              src={logo}
               alt="Logo"
             />
             <div className="my-5">

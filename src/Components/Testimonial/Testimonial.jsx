@@ -1,6 +1,9 @@
 import star from "../../../public/Images/star.png"
 import dot from "../../../public/Images/dot.png"
 import dot2 from "../../../public/Images/dot2.png"
+import user1 from "../../../public/Images/user1.png"
+import user2 from "../../../public/Images/user2.png"
+import user3 from "../../../public/Images/user3.png"
 const Testimonial = () => {
     return (
         <div className="max-w-[1160px] mx-auto mb-20">
@@ -16,7 +19,7 @@ const Testimonial = () => {
                     <p className="text-xl font-semibold text-[#020043] mb-3">Expertise and Compassion <br /> Combined</p>
                     <p className="text-[#3b3546] text-sm mb-3">I can't thank enough for their exceptional care. The doctors and staff showed incredible expertise and compassion throughout my treatment journey. I felt truly cared for every step of the way.</p>
                     <div className="flex items-center gap-3">
-                        <img src="../../../public/Images/user1.png" alt="" />
+                        <img src={user1} alt="" />
                         <div>
                             <p className="text-[#020043] font-semibold">Sarah D, <span className="font-normal">IT Proffessional</span></p>
                             <div className="flex items-center gap-1 mt-1">
@@ -34,7 +37,7 @@ const Testimonial = () => {
                     <p className="text-xl font-semibold text-[#020043] mb-3">Life-Saving Care, Life-Changing <br /> Experience</p>
                     <p className="text-[#3b3546] text-sm mb-3">My experience at [Healthcare Provider Name] was life-changing. The prompt and accurate diagnosis, coupled with the advanced treatments they provided, saved my life.</p>
                     <div className="flex items-center gap-3">
-                        <img src="../../../public/Images/user2.png" alt="" />
+                        <img src={user2} alt="" />
                         <div>
                             <p className="text-[#020043] font-semibold">Micheel R, <span className="font-normal">Bussiness Executive</span></p>
                             <div className="flex items-center gap-1 mt-1">
@@ -51,7 +54,7 @@ const Testimonial = () => {
                     <p className="text-xl font-semibold text-[#020043] mb-3">A Partner in Health and <br />Wellness</p>
                     <p className="text-[#3b3546] text-sm mb-3">As a busy professional, I appreciate the convenience and quality of care I receive at. From telemedicine consultations to routine check-ups, they've become my trusted partner in health and</p>
                     <div className="flex items-center gap-3">
-                        <img src="../../../public/Images/user3.png" alt="" />
+                        <img src={user3} alt="" />
                         <div>
                             <p className="text-[#020043] font-semibold">David S, <span className="font-normal">Lawyer</span></p>
                             <div className="flex items-center gap-1 mt-1">
