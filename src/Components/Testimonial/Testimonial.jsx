@@ -1,4 +1,6 @@
-
+import star from "../../../public/Images/star.png"
+import dot from "../../../public/Images/dot.png"
+import dot2 from "../../../public/Images/dot2.png"
 const Testimonial = () => {
     return (
         <div className="max-w-[1160px] mx-auto mb-20">
@@ -18,11 +20,11 @@ const Testimonial = () => {
                         <div>
                             <p className="text-[#020043] font-semibold">Sarah D, <span className="font-normal">IT Proffessional</span></p>
                             <div className="flex items-center gap-1 mt-1">
-                                <img src="../../../public/Images/star.png" alt="" />
-                                <img src="../../../public/Images/star.png" alt="" />
-                                <img src="../../../public/Images/star.png" alt="" />
-                                <img src="../../../public/Images/star.png" alt="" />
-                                <img src="../../../public/Images/star.png" alt="" />
+                                <img src={star} alt="" />
+                                <img src={star} alt="" />
+                                <img src={star} alt="" />
+                                <img src={star} alt="" />
+                                <img src={star} alt="" />
                             </div>
                         </div>
                     </div>
@@ -36,10 +38,10 @@ const Testimonial = () => {
                         <div>
                             <p className="text-[#020043] font-semibold">Micheel R, <span className="font-normal">Bussiness Executive</span></p>
                             <div className="flex items-center gap-1 mt-1">
-                                <img src="../../../public/Images/star.png" alt="" />
-                                <img src="../../../public/Images/star.png" alt="" />
-                                <img src="../../../public/Images/star.png" alt="" />
-                                <img src="../../../public/Images/star.png" alt="" />
+                                <img src={star} alt="" />
+                                <img src={star} alt="" />
+                                <img src={star} alt="" />
+                                <img src={star} alt="" />
                             </div>
                         </div>
                     </div>
@@ -53,11 +55,11 @@ const Testimonial = () => {
                         <div>
                             <p className="text-[#020043] font-semibold">David S, <span className="font-normal">Lawyer</span></p>
                             <div className="flex items-center gap-1 mt-1">
-                                <img src="../../../public/Images/star.png" alt="" />
-                                <img src="../../../public/Images/star.png" alt="" />
-                                <img src="../../../public/Images/star.png" alt="" />
-                                <img src="../../../public/Images/star.png" alt="" />
-                                <img src="../../../public/Images/star.png" alt="" />
+                                <img src={star} alt="" />
+                                <img src={star} alt="" />
+                                <img src={star} alt="" />
+                                <img src={star} alt="" />
+                                <img src={star} alt="" />
                             </div>
                         </div>
                     </div>
@@ -65,9 +67,9 @@ const Testimonial = () => {
             </div>
             {/* Dot div */}
             <div className="flex items-center justify-center gap-1">
-                <img src="../../../public/Images/dot2.png" alt="" />
-                <img src="../../../public/Images/dot.png" alt="" />
-                <img src="../../../public/Images/dot2.png" alt="" />
+                <img src={dot2} alt="" />
+                <img src={dot} alt="" />
+                <img src={dot2} alt="" />
             </div>
         </div>
     );

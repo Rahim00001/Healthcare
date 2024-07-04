@@ -1,4 +1,8 @@
 import { Footer } from "flowbite-react";
+import fb from "../../../public/Images/fb.png"
+import insta from "../../../public/Images/insta.png"
+import link from "../../../public/Images/link.png"
+import yt from "../../../public/Images/yt.png"
 const NewFooter = () => {
   return (
     <Footer container className="bg-[#020043] rounded-none">
@@ -41,10 +45,10 @@ const NewFooter = () => {
               <Footer.LinkGroup col className="text-[#FFFFF5]" >
                 <Footer.Link href="#">
                   <div className="flex items-center gap-2">
-                    <img src="../../../public/Images/fb.png" alt="" />
-                    <img src="../../../public/Images/insta.png" alt="" />
-                    <img src="../../../public/Images/link.png" alt="" />
-                    <img src="../../../public/Images/yt.png" alt="" />
+                    <img src={fb} alt="" />
+                    <img src={insta} alt="" />
+                    <img src={link} alt="" />
+                    <img src={yt} alt="" />
                   </div>
                 </Footer.Link>
                 <Footer.Link href="#">@docplus 2024</Footer.Link>

@@ -1,4 +1,7 @@
 import { BsArrowUpRight } from "react-icons/bs";
+import bg1 from "../../../public/Images/Rectangle 27-2.png"
+import bg2 from "../../../public/Images/Rectangle 27-1.png"
+import bg3 from "../../../public/Images/Rectangle 27.png"
 const Services = () => {
     return (
         <section className="max-w-[1160px] mx-auto mb-16 bg-white rounded-2xl py-5">
@@ -34,7 +37,7 @@ const Services = () => {
                             <BsArrowUpRight className="font-bold" />
                         </div>
                     </div>
-                    <img src="../../../public/Images/Rectangle 27-2.png" alt="" className="rounded-3xl" />
+                    <img src={bg1} alt="" className="rounded-3xl" />
                 </div>
             </div>
             <div className="flex justify-between items-center">
@@ -49,7 +52,7 @@ const Services = () => {
                             <BsArrowUpRight className="font-bold" />
                         </div>
                     </div>
-                    <img src="../../../public/Images/Rectangle 27-1.png" alt="" className="rounded-3xl" />
+                    <img src={bg2} alt="" className="rounded-3xl" />
                 </div>
                 {/* service image card 3 */}
                 <div className="relative w-[50%] flex justify-center">
@@ -62,7 +65,7 @@ const Services = () => {
                             <BsArrowUpRight className="font-bold" />
                         </div>
                     </div>
-                    <img src="../../../public/Images/Rectangle 27.png" alt="" className="rounded-3xl" />
+                    <img src={bg3} alt="" className="rounded-3xl" />
                 </div>
             </div>
         </section>

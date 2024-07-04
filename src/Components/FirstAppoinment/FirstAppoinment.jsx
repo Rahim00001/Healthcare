@@ -1,11 +1,13 @@
 import { BsArrowUpRight } from "react-icons/bs";
+import logo from "../../../public/Images/logo light.png"
+import bg from "../../../public/Images/Rectangle 32.png"
 const FirstAppoinment = () => {
     return (
         <div className="max-w-[1160px] h-477px mx-auto mb-20 relative">
-            <img src="../../../public/Images/Rectangle 32.png" alt="" className="w-full rounded-2xl" />
+            <img src={bg} alt="" className="w-full rounded-2xl" />
             <div className="absolute h-full left-0 bottom-0 w-full bg-gradient-to-r from-[#020043FF] to-[#0200434D] rounded-2xl">
                 <div className="flex justify-end mr-8 mt-8">
-                    <img src="../../../public/Images/logo light.png" alt="" />
+                    <img src={logo} alt="" />
                 </div>
                 <h1 className="text-[40px] font-bold text-white mb-10 mt-5 ml-20">Get Your <br /> First Appointment <br />at 50% Off!</h1>
                 <div className="flex items-center gap-5 ml-20">

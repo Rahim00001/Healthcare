@@ -1,4 +1,5 @@
 import { BsArrowUpRight } from "react-icons/bs";
+import bg from "../../../public/Images/Rectangle 24.png"
 const AboutUs = () => {
     return (
         <section className="max-w-[1160px] mx-auto mb-40">
@@ -27,7 +28,7 @@ const AboutUs = () => {
                         <h2 className="text-[28px] font-medium mb-4">Our mission is simple</h2>
                         <p className="text-lg text-yellow-50">To provide high-quality healthcare services that are accessible, personalized, and patient-centered.</p>
                     </div>
-                    <img src="../../../public/Images/Rectangle 24.png" alt="" />
+                    <img src={bg} alt="" />
                 </div>
             </div>
         </section>
