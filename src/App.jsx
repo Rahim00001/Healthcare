@@ -6,6 +6,7 @@ import Hero from './Components/Hero/Hero';
 import NewNavbar from './Components/Navbar/NewNavbar';
 import Services from './Components/Services/Services';
 import Testimonial from './Components/Testimonial/Testimonial';
+import NewFooter from './Components/Footer/NewFooter';
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
       <Testimonial></Testimonial>
       <FAQ></FAQ>
       <FirstAppoinment></FirstAppoinment>
+      <NewFooter></NewFooter>
     </div>
   )
 }
